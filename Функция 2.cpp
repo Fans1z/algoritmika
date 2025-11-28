@@ -1,3 +1,5 @@
+// №2 - 1 Задание
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -23,4 +25,5 @@ int main() {
     cout << "Результат = " << fixed << setprecision(6) << result << endl;
     
     return 0;
+
 }
