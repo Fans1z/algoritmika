@@ -1,3 +1,5 @@
+// №12 - 2 Задание
+
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -38,4 +40,5 @@ int main() {
     cout << "Площадь треугольника: " << area << endl;
     
     return 0;
+
 }
