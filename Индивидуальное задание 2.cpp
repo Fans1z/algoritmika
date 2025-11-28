@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-    double x1, y1, x2, y2, x3, y3;
+    double x1, y1, x2, y2, x3, y3, a, b, c, p, area;
     
     // Ввод координат вершин
     cout << "Введите координаты первой вершины (x1 y1): ";
@@ -20,15 +20,15 @@ int main() {
     cin >> x3 >> y3;
     
     // Вычисление длин сторон
-    double a = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2)); // сторона между вершинами 1 и 2
-    double b = sqrt(pow(x3 - x2, 2) + pow(y3 - y2, 2)); // сторона между вершинами 2 и 3
-    double c = sqrt(pow(x1 - x3, 2) + pow(y1 - y3, 2)); // сторона между вершинами 3 и 1
+    a = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2)); // сторона между вершинами 1 и 2
+    b = sqrt(pow(x3 - x2, 2) + pow(y3 - y2, 2)); // сторона между вершинами 2 и 3
+    c = sqrt(pow(x1 - x3, 2) + pow(y1 - y3, 2)); // сторона между вершинами 3 и 1
     
     // Вычисление полупериметра
-    double p = (a + b + c) / 2;
+    p = (a + b + c) / 2;
     
     // Вычисление площади по формуле Герона
-    double area = sqrt(p * (p - a) * (p - b) * (p - c));
+    area = sqrt(p * (p - a) * (p - b) * (p - c));
     
     // Вывод результатов
     cout << fixed << setprecision(2);
@@ -40,5 +40,4 @@ int main() {
     cout << "Площадь треугольника: " << area << endl;
     
     return 0;
-
 }
