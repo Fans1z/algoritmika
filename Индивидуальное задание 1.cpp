@@ -5,11 +5,11 @@
 using namespace std;
 
 int main() {
-    double x, y;
+    double x, y, result;
     cout << "Введите x и y: ";
     cin >> x >> y; // Приводит Х в У
     
-    double result = exp(-x) - cos(x) + sin(2 * x * y); // Делает уровнение и приводит в результат
+    result = exp(-x) - cos(x) + sin(2 * x * y); // Делает уровнение и приводит результат
     
     cout << "Результат: " << result;
     return 0;
