@@ -33,11 +33,10 @@ int main() {
     // Вывод результатов
     cout << fixed << setprecision(2);
     cout << "\nРезультаты вычислений:" << endl;
-    cout << "Длина стороны a: " << a << endl;
-    cout << "Длина стороны b: " << b << endl;
-    cout << "Длина стороны c: " << c << endl;
+    cout << "Длины сторон a, b, c: " << a << ", " << b << ", " << c << endl;
     cout << "Полупериметр: " << p << endl;
     cout << "Площадь треугольника: " << area << endl;
     
     return 0;
 }
+
