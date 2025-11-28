@@ -1,3 +1,5 @@
+// №18 - 3 Задание
+
 #include <iostream>
 #include <cmath>
 #include <algorithm>
@@ -48,4 +50,5 @@ int main() {
     }
     
     return 0;
+
 }
