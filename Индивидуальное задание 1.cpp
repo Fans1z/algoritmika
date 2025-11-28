@@ -7,9 +7,9 @@ using namespace std;
 int main() {
     double x, y;
     cout << "Введите x и y: ";
-    cin >> x >> y;
+    cin >> x >> y; // Приводит Х в У
     
-    double result = exp(-x) - cos(x) + sin(2 * x * y);
+    double result = exp(-x) - cos(x) + sin(2 * x * y); // Делает уровнение и приводит в результат
     
     cout << "Результат: " << result;
     return 0;
