@@ -1,3 +1,5 @@
+// №4 - Задание 6
+
 #include <iostream>
 using namespace std;
 int f(int x) {
