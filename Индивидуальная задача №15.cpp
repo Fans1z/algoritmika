@@ -1,3 +1,4 @@
+//все четные числа из диапазона от A до B, кратные трем (A <= B)
 #include <iostream>
 using namespace std;
 
