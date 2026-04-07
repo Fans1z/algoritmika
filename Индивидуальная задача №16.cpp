@@ -2,15 +2,18 @@
 #include <iostream>
 using namespace std;
 
-int main() 
-{
+int main() {
     int x, y;
     cin >> x >> y;
-    
-    int vnutri = (y >= 0) && (y <= x) && (x <= 12);
-    int granica = (y == 0) || (y == x) || (x == 12);
-    
-    cout << (vnutri && granica ? "На границе" : vnutri ? "Да" : "Нет") << endl;
-    
+
+    if (y >= 0 && y <= x && x <= 12) {
+        if (y == 0 || y == x || x == 12)
+            cout << "На границе";
+        else
+            cout << "Да";
+    } else {
+        cout << "Нет";
+    }
+
     return 0;
 }
